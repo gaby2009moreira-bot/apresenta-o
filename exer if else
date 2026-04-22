@@ -1,0 +1,20 @@
+using System;
+
+namespace exer_if_else
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Digite a sua idade: ");
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade < 18)
+                Console.WriteLine("Menor de idade");
+            else if (idade < 60) 
+                Console.WriteLine("Adulto");
+            else
+                Console.WriteLine("Idoso");
+        }
+    }
+}
