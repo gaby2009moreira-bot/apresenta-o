@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("--- Tabuada do 5 ---");
+
+        // Loop de 1 até 10
+        for (int i = 1; i <= 10; i++)
+        {
+            // O uso do $ (Interpolação de String) é a forma moderna e correta
+            Console.WriteLine($"5 x {i} = {5 * i}");
+        }
+
+        Console.WriteLine("--------------------");
+    }
+}
