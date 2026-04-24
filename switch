@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Dia (1-7): ");
+        int dia = int.Parse(Console.ReadLine());
+
+        switch (dia)
+        {
+            case 1: Console.WriteLine("Domingo"); break;
+            case 2: Console.WriteLine("Segunda"); break;
+            // ... outros casos
+            default:
+                // O 'default' é o que acontece se nenhum 'case' bater
+                Console.WriteLine("Inválido");
+                break;
+        }
+    }
+}
